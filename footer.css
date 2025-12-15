@@ -1,0 +1,138 @@
+hr{
+    width: 35px;
+    margin-right: 100%;  
+    color: #fff8da;
+}
+
+.social_icon1{
+    color: #fff8da;
+    border: 1px none rgb(213, 220, 240);
+    display: inline;
+    width: 30px;
+    padding: 10px;
+    border-radius: 50%;
+
+}
+.social_icon1:hover{
+    background-color: #fff8da;
+    box-shadow: 3px 3px 3px rgba(156, 156, 164, 0.646);
+}
+.container3 p{
+    color: #fff8da;
+}
+.col-4 p{
+    color: #fff8da;
+}
+.col-4{
+    padding: 25px;
+    padding-left: 50px;
+} 
+ .social_icon{
+    background-color: #fff8da;
+    color: rgb(92, 96, 110);
+    border: 1px solid rgb(213, 220, 240); 
+    display: inline; 
+    width: 30px;
+    padding: 5px;
+    border-radius: 100px; 
+    margin-right: 7px; 
+} 
+.social_icon p{
+    display: inline-block;
+}
+.submit_button{
+    padding: 10px 30px 10px 20px;
+    background-color: #9aba93; 
+    border-radius: 0px 30px 30px 0px;
+    border-style: none;
+    color: #fff8da;
+    box-shadow: 3px 3px 5px rgba(101, 101, 107, 0.646);
+}
+.submit_button:hover{
+    background-color: rgb(84, 118, 79);
+    
+}
+.input_box{  
+    width: 280px;  
+    padding: 10px;
+    background-color: rgb(226, 226, 237); 
+    border-radius: 20px 0px 0px 20px;
+    border-style: none;
+    box-shadow: 3px 3px 5px rgba(107, 107, 118, 0.646); 
+}
+.col-3 a{
+    transition: margin-left 1s linear;
+    display: block;
+    text-decoration: none;
+    color:#fff8da;
+    margin-bottom: 20px;
+    
+}
+.col-3 a:hover{
+    margin-left: 10px;
+    color: #c4e0bd;
+    
+}
+.col-3 h3{
+    margin-top: 30px;
+}
+.social_icon i,.social_icon1,i{
+    color: #fff8da;
+}
+.col-4 a{
+    display: block;
+    display: block;
+    text-decoration: none;
+    color:#fff8da;
+    margin-bottom: 20px;
+}
+.col-4 h3{
+    margin-top: 0px;
+}
+.container3 p{
+    margin-bottom: 30px;
+}
+.container3{
+    background-color:#5a7c5f;
+    padding-left: 20px;
+    width: 100%;
+}
+.col-2 a i{
+    display: block;
+    font-size: large;
+    margin-bottom: 20px;
+    color: #fff8da;
+}
+.container3 h1,.container3 h2,.container3 h3{
+    color: #fff8da;
+}
+@media  screen and (max-width:600px){
+    .container3{
+        display: flex;
+        flex-wrap: wrap;
+        justify-items: baseline;
+        align-items: baseline;
+    }
+   .container h3,.container p{
+    text-align: center;
+   }
+   .container .input_box{
+    width: 90%;
+    margin: auto;
+   }
+   .row0 {
+    margin-left: 0px;
+   }
+   .col-3{
+    padding-left: 0;
+    margin-left: 0;
+   }
+   .col-4{
+     padding-left: 0;
+     margin-left: 0;
+   }
+}
+.end{
+    text-align: center;
+    font-size: 16px;
+}

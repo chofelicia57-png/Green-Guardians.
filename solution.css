@@ -1,0 +1,257 @@
+body {
+    background-color: #dbecd6;
+}
+
+.container-1 {
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    padding-bottom: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+
+}
+.container-1:hover{
+    box-shadow: 0 4px 8px 0 #608265, 0 6px 20px 0 rgba(0, 0, 0, 0.622);
+}
+.row-1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Title */
+.section-title {
+    font-size: 32px;
+    color: #2b5c34;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #79c29a;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Image */
+.help-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+
+/* Text Box */
+.text-box {
+    background-color: #e5f3e5;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 22px;
+    text-align: left;
+    line-height: 1.5;
+    color: #0a3c08;
+    
+}
+
+@media screen and (max-width:900px){
+ .section-title {
+        font-size: 28px;
+    }
+}
+
+
+/* Mobile View */
+@media screen and (max-width: 600px) {
+    .text-box {
+        font-size: 20px;
+        padding: 18px;
+    }
+    .col-4 { width: 100%;}
+
+    .section-title {
+        font-size: 24px;
+        text-align: center;
+        width: 100%;
+    }
+}
+@media (min-width: 1700px) {
+    .text-box {
+        height: 400px;
+        line-height: 2.6;
+    }
+}
+/* Finish How Local Community Can Help */
+
+/* Start Eco-Friendly Action */
+
+   /* Container styling */
+ .eco-title {
+  display: inline-block;
+  background-color: #2b5c34;   
+  color: #ffffff;
+  margin-left: 20px;
+  padding: 14px 24px;
+  border-radius: 10px;
+ }
+.eco-list {
+  list-style: none;               
+  padding: 0;
+  margin: 0;
+  color: #f5f5dc;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.eco-list li {
+  display: flex;                  
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+/* Custom circle bullet */
+.eco-list li::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  margin-left: 30px;
+  background-color: #f5f5dc;
+  border-radius: 50%;
+  margin-top: 8px;                
+  flex-shrink: 0;                
+}
+.card:hover{
+    box-shadow: 0 4px 8px 0 #608265, 0 6px 20px 0 rgba(0, 0, 0, 0.622);
+}
+.card img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+/* Tablet view */
+@media (max-width: 1024px) {
+  .eco-list {
+    font-size: 0.95rem;
+  }
+
+  .eco-list li {
+    gap: 6px;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 600px) {
+  .eco-list {
+    font-size: 0.85rem;
+  }
+
+  .eco-list li::before {
+    width: 6px;
+    height: 6px;
+    margin-top: 7px;
+  }
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+}
+
+/* Individual card */
+.card {
+    background: #55764d;
+    color: #fff8da;
+    border-radius: 10px;
+    width: 32%;
+    margin-top: 25px;
+    text-align: center;
+    
+}
+
+/* Images */
+.card img {
+    width: 100%;
+    height: 300px;
+    
+}
+
+/* Text */
+.card p {
+    display: block;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: left;
+    margin-left: 25px;
+}
+
+
+
+/* Responsive: Tablet */
+@media screen and (max-width: 900px) {
+    .card {
+        width: 48%;
+    }
+}
+
+/* Responsive: Mobile */
+@media screen and (max-width: 600px) {
+    .card {
+        width: 100%;
+    }
+    .eco-title {
+        width: 50%;
+    }
+    
+}
+
+/* Finish Eco-Friendly Action */
+
+/* Start How People Can Join Cleanup Events  */
+
+ * {
+    box-sizing: border-box;
+} 
+
+.row-1{
+    margin-bottom: 80px;
+}
+.container-2 {
+    width: 90%;
+    margin: auto;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 38px;
+    color: #085c0c;
+    margin-bottom: 40px;
+    margin-top: 100px;
+    font-weight: 800;
+}
+
+.text-box h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.text-box p {
+    margin-top: 0;
+}
+
+/* Responsive (small devices)
+@media screen and (max-width: 1000px) {
+    .col-s-12 {width: 100%;}
+}*/
+.end{ 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.container3{
+    width: 100%;
+}

@@ -1,0 +1,72 @@
+/* *{
+    color: rgb(58, 60, 103);
+} */
+/* team heading */
+.team_heading{
+    text-align: center;
+    color:#4d794d;;
+    text-shadow: 2px 2px 5px rgba(58, 60, 103, 0.495);
+}
+/* team div */
+.team_div{
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(223, 226, 229);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* team container */
+.team_container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.social_icon:hover i{
+    color: rgb(213, 220, 240);
+    font-size: large;
+}
+.social_icon:hover{
+    border-color: rgb(167, 160, 189);
+}
+
+.card{
+
+    border: 1px solid #4d794d;
+    border-radius: 7px ;
+    margin-bottom: 15px;
+
+
+}
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+}
+.card .text{
+    padding: 10px;
+    
+}
+.social_icon{
+    border: 1px solid rgb(213, 220, 240);
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 7px;
+}
+@media  screen and (max-width:600px){
+   .card{
+    width: 65%;
+    margin: 15px auto;
+   }
+   .card img{
+    height: auto;
+   }
+   .card .text{
+    padding-bottom: 10px;
+   }
+}
