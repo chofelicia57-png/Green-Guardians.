@@ -1,0 +1,20 @@
+body{
+   background-color: #dbecd6;
+}
+button{
+    background-color: #5a7c5f;
+    color: #fff8da;
+    border-radius: 20px;
+    padding: 5px 10px ;
+}
+button a{
+    color: #fff8da;
+}
+a{
+    color: #5a7c5f;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+h1{
+    color: #5a7c5f;
+}
